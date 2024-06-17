@@ -37,7 +37,7 @@ import com.google.api.services.gmail.GmailScopes;
 	    public void user_sends_an_email_with_subject_to(String subject, String recipientEmail) {
 	        try {
 	        	
-	            com.example.gmail.GmailService.sendEmail(recipientEmail, subject, "This is a test email sent from a Java application by Rohit.");
+	            com.example.gmail.GmailService.sendEmail(recipientEmail, subject, "Automation QA test for Incubyte by Rohit");
 	        } catch (Exception e) {
 	            e.printStackTrace();
 	        }
